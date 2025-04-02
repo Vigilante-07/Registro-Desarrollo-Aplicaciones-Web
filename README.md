@@ -15,3 +15,10 @@ Registered users may modify their data by just applying to the site and loging i
 ![Modificar](https://github.com/user-attachments/assets/666e7579-6b67-4547-9eac-00bf9f2e4484)
 
 ![Modificar2](https://github.com/user-attachments/assets/0876102c-d669-47db-bdf8-a00d3e2a4ee7)
+
+
+# Database
+The DB.
+
+![image](https://github.com/user-attachments/assets/a025b370-5e49-42ce-bf18-51aababfca2d)
+
