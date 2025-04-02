@@ -1,0 +1,63 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+    background-image: url('images/fondo2.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-position: center; /* Centrar la imagen */
+}
+
+.confirmacion-container {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 50px 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 380px;
+    background-color: #fff;
+}
+
+form h2 {
+    font-size: 35px;
+    color: #0d0d0d;
+    margin: 0 0 20px 0;
+}
+
+form p {
+    font-size: 16px;
+    color: #5e5e5e;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(140, 43, 231, 1) 25%, rgba(61, 1, 245, 1) 100%);
+    box-shadow: 0 0 20px rgba(192, 203, 251, 0.7);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, rgba(120, 33, 211, 1) 25%, rgba(51, 1, 225, 1) 100%);
+}
+
+.modificar-btn {
+    background: linear-gradient(90deg, rgba(231, 43, 43, 1) 25%, rgba(191, 1, 1, 1) 100%);
+    box-shadow: 0 0 20px rgba(251, 203, 203, 0.7);
+}
+
+.modificar-btn:hover {
+    background: linear-gradient(90deg, rgba(211, 33, 33, 1) 25%, rgba(171, 1, 1, 1) 100%);
+}

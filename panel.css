@@ -1,0 +1,185 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('images/fondo2.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-position: center; /* Centrar la imagen */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 35px;
+    color: #0d0d0d;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #0d0d0d;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #6c7ae0;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+table td {
+    font-size: 16px;
+    color: #5e5e5e;
+}
+
+table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+table tr:hover {
+    background-color: #e0e0e0;
+}
+
+form {
+    margin-top: 20px;
+    width: 50%;
+    /* Ajusta el tamaño del formulario */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-wrapper input,
+.input-wrapper select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #5e5e5e;
+}
+
+.input-wrapper img.input-icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.input-wrapper input[type="date"] {
+    width: 95%;
+    /* Ajusta el tamaño del campo de fecha de nacimiento */
+}
+
+.button-container {
+    text-align: center;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: linear-gradient(90deg, rgba(140, 43, 231, 1) 25%, rgba(61, 1, 245, 1) 100%);
+    box-shadow: 0 4px 15px rgba(140, 43, 231, 0.4);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, rgba(120, 33, 211, 1) 25%, rgba(51, 1, 225, 1) 100%);
+    box-shadow: 0 6px 20px rgba(120, 33, 211, 0.5);
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(120, 33, 211, 0.4);
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(90deg, rgba(140, 43, 231, 1) 25%, rgba(61, 1, 245, 1) 100%);
+    box-shadow: 0 0 20px rgba(192, 203, 251, 0.7);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(90deg, rgba(120, 33, 211, 1) 25%, rgba(51, 1, 225, 1) 100%);
+}
+
+.logout-btn {
+    background: linear-gradient(90deg, rgba(231, 43, 43, 1) 25%, rgba(191, 1, 1, 1) 100%);
+    box-shadow: 0 0 20px rgba(251, 203, 203, 0.7);
+}
+
+.logout-btn:hover {
+    background: linear-gradient(90deg, rgba(211, 33, 33, 1) 25%, rgba(171, 1, 1, 1) 100%);
+}
+
+/* Estilo para el checkbox de mostrar contraseña */
+.show-password-label {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #5e5e5e;
+}
+
+.show-password-checkbox {
+    width: 20px;
+    /* Ajusta el tamaño del checkbox */
+    height: 20px;
+    /* Ajusta el tamaño del checkbox */
+    margin-left: 100px;
+}
