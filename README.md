@@ -12,7 +12,7 @@ This is where the user confirms the data registered.
 # SignInPanel 
 Registered users may modify their data by just applying to the site and loging in within the MainPage window.
 
-![Modificar](https://github.com/user-attachments/assets/666e7579-6b67-4547-9eac-00bf9f2e4484)
+![image](https://github.com/user-attachments/assets/54a920fb-3f61-4397-b7d1-e630e9e31579)
 
 ![Modificar2](https://github.com/user-attachments/assets/0876102c-d669-47db-bdf8-a00d3e2a4ee7)
 
