@@ -1,6 +1,6 @@
 # Main Page 
 Welcome!
-This is the main login window.
+This is the main window.
 
 ![Interfaz](https://github.com/user-attachments/assets/3779ff7e-5e90-47d5-9885-cf32ea95e5d8)
 
